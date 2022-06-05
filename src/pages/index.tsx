@@ -1,6 +1,5 @@
-import { postSchema, Post } from "@/utils";
+import { Post } from "@/utils";
 import { useMutation, useQuery, useQueryClient } from "react-query";
-import { z } from "zod";
 
 export default function Index() {
   const queryClient = useQueryClient();
